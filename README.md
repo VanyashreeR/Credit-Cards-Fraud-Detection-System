@@ -1,2 +1,27 @@
-# Credit-Cards-Fraud-Detection-System
-This Credit Card Fraud Detection System is a machine learning-based solution designed to identify fraudulent transactions in real-time. Using the Kaggle Credit Card Fraud Dataset, this system leverages advanced classification algorithms to detect anomalies and suspicious activities with high accuracy.
+# Credit Card Fraud Detection System
+
+A machine learning system to detect fraudulent credit card transactions using the [Kaggle Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+
+## Features
+- Comprehensive data preprocessing
+- Advanced feature engineering
+- Multiple ML models with hyperparameter tuning
+- Detailed evaluation metrics
+- Class imbalance handling techniques
+
+## Installation
+1. Clone the repository
+2. Install requirements: `pip install -r requirements.txt`
+3. Download dataset from Kaggle and place in `data/` folder
+
+## Usage
+Run the notebooks in order:
+1. Data Exploration
+2. Feature Engineering
+3. Model Training
+
+Or run the Python scripts:
+```bash
+python src/data_preprocessing.py
+python src/feature_engineering.py
+python src/model_training.py
